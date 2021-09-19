@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'ZF#0001'
 description 'A New Modular and Easy to use Dialog System for FiveM'
-version '1.0.0'
+version '1.0.1'
 
 client_script 'client/main.lua'
 server_script 'server.lua'

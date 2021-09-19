@@ -6,6 +6,7 @@ const OpenMenu = (data) => {
     $(`.main-wrapper`).fadeIn(0)
     SetHeader(data.header)
     AddRow(data.rows)
+    SetButton(data.button)
 }
 
 function SetHeader(header) {
@@ -13,7 +14,12 @@ function SetHeader(header) {
     element = $('<h1>' + header + '<h1>');
     $('.heading').append(element);
     saved = element
-}
+};
+
+function SetButton(button) {
+    var buttonText = button ? button : 'Submit'
+    $('.btn').html(buttonText);
+};
 
 const CloseMenu = () => {
     $(`.main-wrapper`).fadeOut(0);
