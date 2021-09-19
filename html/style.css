@@ -80,6 +80,10 @@ html, body {
 
 .body input[type="text"]:focus { 
     outline: none;
+    box-shadow: inset 0px 0px 0px 2px #F8E6C9;
+    transition-property: box-shadow;
+    transition-duration: 0.25s;
+    transition-timing-function: linear, ease-in;
 }
 
 .body select {
