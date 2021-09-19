@@ -115,9 +115,9 @@ html, body {
     border: none;
     font-weight: 500;
     border-radius: 5px;
-    -webkit-transition-property: color, background-color;
-    -webkit-transition-duration: 0.10s, 0.30s;
-    -webkit-transition-timing-function: linear, ease-in;
+    transition-property: color, background-color;
+    transition-duration: 0.10s, 0.30s;
+    transition-timing-function: linear, ease-in;
 }
 
 .btn:hover {
